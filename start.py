@@ -12,7 +12,7 @@ def homepage():
 <html><head>
 <style>
 html {
-    background: url(http://thecatapi.com/api/images/get?format=src&type=gif) no-repeat center center fixed;
+    background: url(https://media.tenor.com/AduETyiZjR4AAAAC/sonic-dance.gif) no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -33,7 +33,7 @@ h1 {
 <h1>hello from<br/>{}</h1>
 </center></body></html>
 """.format(
-        platform.node(),
+        "Sonic Le Hérisson",
     )
 
     return html
